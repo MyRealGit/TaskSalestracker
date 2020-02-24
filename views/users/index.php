@@ -3,18 +3,7 @@ use yii\helpers\Html;
 use yii\widgets\LinkPager;
 ?>
 <h4>List of all Users</h4>
-<!--
-<ul>
-<?php foreach ($users as $user): ?>
-    <li>
-        <?= Html::encode("{$user->firstname} {$user->surname} $user->email $user->birthdate") ?>
-        <?= $user->email ?> <?= $user->birthdate ?>
 
-    </li>
-
-
-<?php endforeach; ?>
-</ul> -->
    
 <style>
 table.GeneratedTable {
